@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/cipher.js" type="text/javascript" defer></script>
+    <script src="./scripts/index.js" type="text/javascript" defer></script>
+    <script src="./scripts/events.js" type="text/javascript" defer></script>
+    <title>Encriptador Challenge</title>
+</head>
+<body>
+    <header>
+        <h1>a</h1>
+    </header>
+
+    <main class="container">
+        <section class="menu content">
+            <div class="tarjet content-input">
+                <textarea id="cipher-text" placeholder="Ingrese un texto" autofocus></textarea>
+            </div>
+            <p class="leyend" id="legend">&#9888; No se permiten acentos y mayusculas </p>
+            <div class="buttons">
+                <button class="button" id="encrypt-button" disabled>Encriptar!</button>
+                <button class="button contrast-style" id="decrypt-button" disabled>Desencriptar</button>
+            </div>
+        </section>
+        <section class="content">
+            <div class="tarjet display">
+                <h2 id="display-title">Ningun mensaje fue encontrado</h2>
+                <p id="display-message">Ingrese un texto que desees encriptar o desencriptar</p>
+                <textarea class="hidden" id="display" disabled></textarea>
+            </div>
+            <div id="buttons">
+                <button class="hidden" id="copy-button">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="main-group">
+            <div class="box">
+                <figure>
+                    <h1>Marcos Lopez</h1>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre el proyecto</h2>
+                <p>Proyecyo encriptador creado para el challege 1 del programa One G5.</p>
+                <p>Se han utilizado los primeros conceptos vistos, agregando concocimiento propio</p>
+            </div>
+            <div class="box">
+                <h2>Contacto</h2>
+                <div class="social-media">
+                    <a href="#"><h3>L</h3></a>
+                    <a href="#"><h3>G</h3></a>
+                    <a href="#"><h3>S</h3></a>
+                </div>
+            </div>
+        </div>
+        <div class="content-copy">
+            <small>&copy; 2023 <b>Marcos</b> - Derechos reservados.</small>
+        </div>
+    </footer>
+    
+</body>
+</html>
