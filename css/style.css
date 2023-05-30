@@ -163,6 +163,7 @@ header h1{
     
 }
 .hidden{
+    display: none;
     width: 0;
     height: 0;
     margin: 0;
@@ -323,14 +324,13 @@ footer .content-copy{
         flex-direction: row;
         margin-right: 5%;
         margin-top: 1em;
-
     }
 
     .display{
         margin-left: 10%;
     }
     .menu .content-input, .display{
-        height: 500px;
+        height: 400px;
     }
 
     footer .main-group{
