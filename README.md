@@ -9,8 +9,10 @@ This repository is part of one of the challenges given to be developed in the Or
 El reto consistia en una pagina web capaz de:
 - Encriptar textos.
 - Desencriptar textos.
+
 Esto lo deberia de hacer escribiendo dentro el texto en un input y al darle a un boton "Encriptar" para encriptarlo y mostrar en un display el resultado.
 Luego si se quisiera desencriptar poner un texto encriptado y al darle a un boton "Desencriptar" para desencriptar y mostrar en un display el resultado.
+
 ### Encriptacion
 Para las condiciones o reglas para la encripcion del texto se debiand de seguir las reglas en este tablero de [trelo](https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-one)
 
