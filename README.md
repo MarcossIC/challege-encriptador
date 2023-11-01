@@ -19,7 +19,7 @@ Para las condiciones o reglas para la encripcion del texto se debiand de seguir 
 ## 🛠 Stack
 The project was developed in Angular 16 with the technologies of:
 <p align="left"> 
-   <a href="#" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=angular,ts,tailwind,html,css,reactivex"/> </a>
+   <a href="#" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html,css,js"/> </a>
 </p>
 
 ## ℹ️ Development server
